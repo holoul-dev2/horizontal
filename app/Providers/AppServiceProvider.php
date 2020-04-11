@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Config::set('app.languages', Language::all()->toArray());
+//        Config::set('app.languages', Language::all()->toArray());
         Schema::defaultStringLength(191);
     }
 }

@@ -115,15 +115,11 @@ class LanguageController extends Controller
 
     public function switchLanguage(Request $request, $code)
     {
-        $language = Language::where('code', '=', $code)->get()->first();
-        if (!$language) {
-            \abort(404);
-        }
 
-        Cookie::forever('language', $language->code);
+        Cookie::forever('language', $code);
 
         return redirect()->back()->cookie(
-            'language', $language->code, 10000000
+            'language', $code, 10000000
         );
     }
 }
