@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'Contacts'=>'Contacts',
+    'First Name'=>'First Name',
+    'Last Name'=>'Lasr Name',
+    'phone'=>'phone',
+    'Actions'=>'Actions',
+    'You will not be able to revert this'=>'You will not be able to revert this',
+    'No, cancel'=>'No, cancel',
+    'Your file has been deleted'=>'Your file has been deleted',
+    'Yes, delete it!'=>'Yes, delete it!',
+    'Are you sure'=>'Are you sure',
+    'cancel'=>'cancel',
+    'Deleted'=>'Deleted',
+    'Cancelled'=>'Cancelled',
+    'Your imaginary file is safe'=>'Your imaginary file is safe',
+    'error '=>'error',
+    'Languages'=>'languages',
+    'Update Lang'=>'Update Lang',
+    'Code'=>'Code',
+    'Name'=>'Name',
+    'Dashboard'=>'Dashboard',
+    'Main'=>'Main',
+    'Update Contact'=>'Update Contact',
+    'Direction'=>'Direction',
+    'Right to left'=>'Right to left',
+    'Left to Right'=>'Left to Right',
+    'Close'=>'Close',
+    'changes'=>'changes',
+    'Save'=>'Save',
+    'Submit'=>'Submit',
+
+
+];
